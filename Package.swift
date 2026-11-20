@@ -12,13 +12,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/topon-packages/TPNiOS_SPM.git", from: "6.5.60"),
-        .package(url: "https://github.com/facebook/FBAudienceNetwork.git", exact: "6.22.0")
+        .package(url: "https://github.com/facebook/FBAudienceNetwork.git", exact: "6.22.1")
     ],
     targets: [
         .binaryTarget(
             name: "AnyThinkFacebookAdapter",
-            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkFacebookAdapter/6.22.0.2.9/AnyThinkFacebookAdapter-6.22.0.2.9.zip",
-            checksum: "d51ee8db8ed66962bb58e18c686effff3b00836b50bc72629094d2132edb7fc2"
+            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkFacebookAdapter/62201.2.10/AnyThinkFacebookAdapter-62201.2.10.zip",
+            checksum: "cf4a27e2670021c1d854986a7ae4f740bf3295123ab861458c0da075fcfaa974"
         ),
         .target(
             name: "TPNMediationFacebookAdapterTarget",
